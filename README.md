@@ -1,92 +1,54 @@
-# Air_quality
-📌 Project Objective
-To build a predictive model that assesses air quality levels using features like PM2.5, PM10, NO2, CO, O3, and other pollutants. This model helps raise awareness of pollution levels and provides data-driven insights for environmental monitoring.
+# 🌍 Air Quality Level Prediction
 
-📊 Dataset
-Source: Kaggle - Air Quality Data
+## Project Objective
+Build a machine learning model to predict air quality levels using pollutant data such as PM2.5, PM10, NO2, CO, and O3. The project helps in understanding pollution trends and environmental impact.
 
-The dataset contains measurements of multiple pollutants over time including:
+## Dataset
+Source: Kaggle – Air Quality Dataset  
+Features include:
+- PM2.5, PM10, NO2, CO, O3  
+- AQI (Air Quality Index)  
+- Date and Location  
 
-PM2.5
+## Technologies Used
+Python  
+Google Colab  
+Pandas, NumPy  
+Matplotlib, Seaborn  
+Scikit-learn  
+XGBoost  
 
-PM10
+## Project Workflow
+Data collection and cleaning  
+Exploratory Data Analysis (EDA)  
+Feature engineering  
+Model training  
+Model evaluation  
+Result visualization  
 
-NO2
+## Results
+Achieved good prediction accuracy  
+Identified major pollutants affecting air quality  
+Analyzed pollution trends  
 
-CO
+## Folder Structure
+Air-Quality-Level-Prediction/  
+├── README.md  
+├── Air_Quality_Prediction.ipynb  
+└── datasets/  
+    └── air_quality.csv  
 
-O3
+## Future Improvements
+Deploy using Flask or Streamlit  
+Add real-time data integration  
+Enhance model with deep learning  
 
-AQI (Air Quality Index)
+## Acknowledgements
+Kaggle Dataset  
+Nan Mudhalvan Program  
+Mailam Engineering College  
 
-Date and Location
-
-🧠 Technologies Used
-Python
-
-Google Colab
-
-Pandas, NumPy – Data preprocessing
-
-Matplotlib, Seaborn – Data visualization
-
-Scikit-learn – Machine Learning algorithms
-
-XGBoost – Advanced ML model
-
-LabelEncoder / OneHotEncoder – Categorical handling
-
-Train-Test Split – Data splitting
-
-Accuracy, Confusion Matrix, Classification Report – Model evaluation
-
-🔍 Project Workflow
-Data Collection
-
-Data Cleaning and Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Feature Engineering
-
-Model Selection (Random Forest, XGBoost, etc.)
-
-Model Training
-
-Model Evaluation
-
-Insights and Visualizations
-
-🚀 Results
-Achieved high accuracy in predicting air quality levels.
-
-Identified key pollutants impacting air quality the most.
-
-Visualized pollution trends and insights.
-
-📁 Folder Structure
-
-📦Air-Quality-Level-Prediction
- ┣ 📄README.md
- ┣ 📄Air_Quality_Prediction.ipynb
- ┗ 📁datasets
-    ┗ 📄air_quality.csv
-🔮 Future Improvements
-Deploy the model using Flask or Streamlit.
-
-Integrate with real-time sensors for live air quality monitoring.
-
-Improve accuracy using deep learning techniques.
-
-🙌 Acknowledgements
-Kaggle: https://www.kaggle.com/datasets/azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update
-
-Nan Mudhalvan Program
-
-Mentors and Faculty of Mailam Engineering College
-
-🧑‍💻 Author
-Jananigunasekaran
-
-Department of Artificial Intelligence & Data Science, Mailam Engineering College
-
+## Author
+Janani Gunasekaran  
+Department of AI & DS  
+Mailam Engineering College
